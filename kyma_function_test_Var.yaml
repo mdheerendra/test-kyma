@@ -10,7 +10,7 @@ metadata:
 spec:
   deps: |-
     {
-      "name": #{ky_name}#,
+      "name":"#{ky_name}#",
       "version": "1.0.0",
       "dependencies": {
       "axios" : "^0.21.0"
