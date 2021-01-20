@@ -9,16 +9,7 @@ metadata:
     example: #{ky_name}#
 spec:
   deps: |-
-    {
-      "name":"#{ky_name}#",
-      "version": "1.0.0",
-      "dependencies": {
-      "axios" : "^0.21.0"
-    },
-      "buildParameters" : {
-      "enable_api" : true
-    }
-    }
+    #{ky_dep}#
   maxReplicas: 1
   minReplicas: 1
   resources:
