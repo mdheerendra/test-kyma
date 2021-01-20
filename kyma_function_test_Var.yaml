@@ -9,7 +9,8 @@ metadata:
     example: #{ky_name}#
 spec:
   deps: |-
-    #{ky_dep}#
+    {#{ky_dep}#
+    }
   maxReplicas: 1
   minReplicas: 1
   resources:
